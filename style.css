@@ -1,0 +1,242 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* All the codes before this comment is for resetting browser-type properties*/
+/* Here my code begins*/
+
+h2 {
+
+color:black; font-size:15px;
+margin: 0px;
+background-color:rgba(111,22,211,0.4);
+text-align:center;
+}
+p{
+  color:red; font-size:35px ; font:'Calibri';
+  line-height: 35px;
+}
+body{
+  background-color:white;
+}
+
+
+.ohoo {
+  color:orange;
+}
+.we_are_here {
+  color:red;
+}
+#id p {
+  color:green;
+  font-family: 'Brygada 1918', serif;
+}
+/*
+h1 {
+  font-family:arial,"Times New Roman";
+  font-size:22px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  text-indent: 30px;
+  /*color:red;*/
+/*
+  color : rgba(222,22,222,1);
+  letter-spacing: 2px;
+  line-height:22px;
+  font-family: 'Brygada 1918', serif;
+
+
+
+}
+*/
+ul {
+
+}
+ul li {
+  display: inline-block;
+  line-height: 100px;
+}
+
+ul li a {
+text-decoration: none;
+font-size: 25px;
+color:black;
+float: left;
+align:left;
+
+
+padding:0 20px;
+}
+ul li a:hover {
+color:red;
+}
+nav {
+  background-color: rgba(255,255,255,0.2);
+  height: 80px;
+  width: 100%;
+  text-align: center;
+
+}
+.index-div {
+  background-image: url('images/indexmain.jpg');
+  height:620;
+
+
+}
+.contact-h1 {
+  font-size:22px;
+  font-family: arial;
+  font-style: normal;
+  text-decoration: None;
+  color:black;
+  line-height: 35px;
+  font-weight: bolder;
+
+}
+.page-linker {
+font-size: 22px;
+font-family: 'Brygada 1918', serif;
+
+
+
+}
+.project-div{
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+
+}
+.contact-div {
+background-image: url('images/contact2.jpg');
+height:450;
+position: relative;
+
+align-content: center;
+background-color: rgba(150,155,155,0.5);
+}
+
+.social-media {
+
+  height: 50px;
+  width:50px;
+  color:rgba(255,255,255,0.2)
+}
+
+
+
+.dese {
+  width: 222px;
+  height:500px;
+
+}
+
+.contact-page {
+  background-color: white;
+}
+.index-h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  line-height: 35px;
+
+}
+
+
+/*
+.index-intro p {
+  color:red; 7*colorwheel*/
+}
